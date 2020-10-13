@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :dashboard, only: :index
       resources :categories, only: :index
       resources :search, only: :index
+      resources :categories, only: :index
     end
   end
 end
